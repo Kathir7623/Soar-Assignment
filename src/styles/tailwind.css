@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Focus styles for list items */
+li:focus-visible {
+  outline: none;
+}
+
+/* Hover styles for list items */
+li:hover {
+  cursor: pointer;
+}
+
+/* Adding custom CSS variables */
+@layer base {
+  :root {
+    /* ---- Color variables ---- */
+    --blue-gray-400: #888ea2;
+    --blue-gray-600: #505887;
+    --blue-gray-800: #343c6a;
+    --blue-gray-900: #182651;
+    --gray-100: #f4f6f9;
+    --gray-100-01: #eff3f9;
+    --gray-100-02: #f3f3f5;
+    --gray-100-03: #f3f4f5;
+    --gray-100-04: #f4f4f6;
+    --gray-300: #e3e4e8;
+    --gray-300-cc: #e6e3e7cc;
+    --gray-900: #0a0f21;
+    --green-600: #359766;
+    --indigo-100: #c6cfeb;
+    --indigo-200: #8e9ed6;
+    --indigo-300: #718ebf;
+    --indigo-300-02: #7a8fd0;
+    --indigo-500: #425ebd;
+    --indigo-600-01: #314ca3;
+    --indigo-700: #2943a1;
+    --red-700: #d13329;
+    --white-a700: #ffffff;
+    --white-a700-26: #ffffff26;
+    --white-a700-b2: #ffffffb2;
+
+    /* ---- Shadow variables ---- */
+    --shadow-xs: 4px 4px 18px -2px #e6e3e7cc;
+
+    /* ---- Border radius variables ---- */
+    --radius-xs: 6px;
+    --radius-sm: 14px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 26px;
+    --radius-2xl: 30px;
+    --radius-3xl: 34px;
+    --radius-4xl: 64px;
+
+    /* ---- Spacing variables ---- */
+    --space-xs: 1.5px;
+    --space-sm: 2px;
+    --space-md: 4px;
+    --space-lg: 6px;
+    --space-xl: 8px;
+    --space-2xl: 10px;
+    --space-3xl: 11px;
+    --space-4xl: 12px;
+    --space-5xl: 14px;
+    --space-6xl: 16px;
+    --space-7xl: 18px;
+    --space-8xl: 20px;
+    --space-9xl: 21px;
+    --space-10xl: 24px;
+    --space-11xl: 26px;
+    --space-12xl: 28px;
+    --space-13xl: 30px;
+    --space-14xl: 50px;
+  }
+}
